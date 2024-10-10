@@ -1,0 +1,65 @@
+.hobby {
+  padding: 50px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.hobby h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hobby-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alinear el contenido al inicio */
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hobby-texto {
+  flex: 1; /* Ocupa la parte izquierda */
+  padding-right: 20px;
+}
+
+.hobby-texto p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.hobby-imagenes {
+  flex: 1; /* Ocupa la parte derecha */
+  display: flex;
+  justify-content: flex-end; /* Alinear las imágenes a la derecha */
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+.hobby-imagenes img {
+  max-width: 45%; /* Ajusta el tamaño de las imágenes */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-button-container {
+  margin-top: 20px; /* Espacio entre las imágenes y el botón */
+}
+
+.hobby-button {
+  background-color: #463f3e; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 20px; /* Esquinas redondeadas */
+  padding: 10px 15px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  text-decoration: none; /* Sin subrayado */
+  
+}
+
+.hobby-button:hover {
+  background-color: #a8a8a8; /* Color de fondo al pasar el mouse */
+}

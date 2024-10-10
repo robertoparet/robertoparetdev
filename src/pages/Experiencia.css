@@ -1,0 +1,51 @@
+.experiencia {
+    padding: 50px 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .experiencia h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .experiencia-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .experiencia-imagen {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .experiencia-imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .experiencia-texto {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .experiencia-texto h3 {
+    font-size: 1.8rem; /* Tamaño del subtítulo */
+    margin-bottom: 10px;
+  }
+  
+  .experiencia-texto p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
