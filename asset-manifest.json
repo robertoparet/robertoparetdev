@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/robertoparetdev/static/css/main.e84395d3.css",
+    "main.js": "/robertoparetdev/static/js/main.b3dda8fe.js",
+    "static/media/21758-321309738.mp4": "/robertoparetdev/static/media/21758-321309738.db6a2bb03551a520aa91.mp4",
+    "static/media/pxl1.jpg": "/robertoparetdev/static/media/pxl1.7ecc59d940c164f225f0.jpg",
+    "static/media/pxl2.jpg": "/robertoparetdev/static/media/pxl2.96465249b59ee56248bf.jpg",
+    "static/media/asian-man-1468032_1920.jpg": "/robertoparetdev/static/media/asian-man-1468032_1920.14fff82db8d68aa669b8.jpg",
+    "static/media/cilindro.png": "/robertoparetdev/static/media/cilindro.efc45af66c8b8a52abc9.png",
+    "index.html": "/robertoparetdev/index.html",
+    "main.e84395d3.css.map": "/robertoparetdev/static/css/main.e84395d3.css.map",
+    "main.b3dda8fe.js.map": "/robertoparetdev/static/js/main.b3dda8fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e84395d3.css",
+    "static/js/main.b3dda8fe.js"
+  ]
+}
