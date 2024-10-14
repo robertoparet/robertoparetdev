@@ -7,7 +7,7 @@ function FormacionAcademica() {
       <h2>Formación Académica</h2>
       <div className="formacion-academica-content">
         <div className="formacion-academica-imagen">
-         <img src={`${process.env.REACT_APP_PUBLIC_URL}/assets/images/cilindro.png`} alt="Foto ejemplo2" />
+         <img src={`${process.env.PUBLIC_URL}/assets/images/cilindro.png`} alt="Foto ejemplo2" />
         </div>
         <div className="formacion-academica-texto">
           <p>
