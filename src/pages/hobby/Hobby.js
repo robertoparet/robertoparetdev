@@ -12,8 +12,8 @@ function Hobby() {
           </p>
         </div>
         <div className="hobby-imagenes">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/pxl1.jpg`} alt="Foto ejemplo1 " />
-          <img src={`${process.env.PUBLIC_URL}/assets/images/pxl2.jpg`} alt="Foto ejemplo2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_URL}/assets/images/pxl1.jpg`} alt="Foto ejemplo1 " />
+          <img src={`${process.env.REACT_APP_PUBLIC_URL}/assets/images/pxl2.jpg`} alt="Foto ejemplo2" />
         </div>
       </div>
       {/* Botón debajo de las imágenes */}

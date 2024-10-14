@@ -19,7 +19,7 @@ function SobreMi() {
           </p>
         </div>
         <div className="sobre-mi-imagen">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/fotomia.jpg`} alt="Foto mia" />
+        <img src={`${process.env.REACT_APP_PUBLIC_URL}/assets/images/fotomia.jpg`} alt="Foto mia" />
         </div>
       </div>
     </div>

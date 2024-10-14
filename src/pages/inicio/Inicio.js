@@ -5,7 +5,7 @@ function Inicio() {
   return (
     <div className="inicio">
       {/* Video de fondo */}   
-      <video className="video-bg" autoPlay loop muted src={`${process.env.PUBLIC_URL}/assets/videos/video.mp4`} controls>
+      <video className="video-bg" autoPlay loop muted src={`${process.env.REACT_APP_PUBLIC_URL}/assets/videos/video.mp4`} controls>
         Your browser does not support the video tag.
       </video>    
       <div className="content">

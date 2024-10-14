@@ -7,7 +7,7 @@ function Experiencia() {
       <h2>Experiencia</h2>
       <div className="experiencia-content">
         <div className="experiencia-imagen">
-         <img src={`${process.env.PUBLIC_URL}/assets/images/cilindro.png`} alt="Foto ejemplo2" />
+         <img src={`${process.env.REACT_APP_PUBLIC_URL}/assets/images/cilindro.png`} alt="Foto ejemplo2" />
         </div>
         <div className="experiencia-texto">
           <h3>AXUTF (Altia)</h3>
