@@ -1,6 +1,5 @@
 import React from 'react';
 import './FormacionAcademica.css';
-import educationImage from '../../assets/cilindro.png'; // Reemplaza con la ruta de tu imagen
 
 function FormacionAcademica() {
   return (
@@ -8,7 +7,7 @@ function FormacionAcademica() {
       <h2>Formación Académica</h2>
       <div className="formacion-academica-content">
         <div className="formacion-academica-imagen">
-          <img src={educationImage} alt="Formación Académica" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/cilindro.png`} alt="Foto ejemplo2" />
         </div>
         <div className="formacion-academica-texto">
           <p>

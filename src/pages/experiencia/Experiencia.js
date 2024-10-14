@@ -1,6 +1,5 @@
 import React from 'react';
 import './Experiencia.css';
-import experienceImage from '../../assets/cilindro.png'; // Reemplaza con la ruta de tu imagen
 
 function Experiencia() {
   return (
@@ -8,7 +7,7 @@ function Experiencia() {
       <h2>Experiencia</h2>
       <div className="experiencia-content">
         <div className="experiencia-imagen">
-          <img src={experienceImage} alt="Experiencia" />
+         <img src={`${process.env.PUBLIC_URL}/assets/images/cilindro.png`} alt="Foto ejemplo2" />
         </div>
         <div className="experiencia-texto">
           <h3>AXUTF (Altia)</h3>

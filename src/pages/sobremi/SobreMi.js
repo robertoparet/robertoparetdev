@@ -1,6 +1,6 @@
 import React from 'react';
 import './SobreMi.css';
-import profileImage from '../../assets/asian-man-1468032_1920.jpg';  // Reemplaza con tu imagen
+
 
 function SobreMi() {
   return (
@@ -19,7 +19,7 @@ function SobreMi() {
           </p>
         </div>
         <div className="sobre-mi-imagen">
-          <img src={profileImage} alt="Perfil" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/fotomia.jpg`} alt="Foto mia" />
         </div>
       </div>
     </div>

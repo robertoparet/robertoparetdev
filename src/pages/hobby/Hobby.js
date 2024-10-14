@@ -1,7 +1,5 @@
 import React from 'react';
 import './Hobby.css';
-import hobbyImage1 from '../../assets/pxl1.jpg'; // Reemplaza con la ruta de tu primera imagen
-import hobbyImage2 from '../../assets/pxl2.jpg'; // Reemplaza con la ruta de tu segunda imagen
 
 function Hobby() {
   return (
@@ -14,8 +12,8 @@ function Hobby() {
           </p>
         </div>
         <div className="hobby-imagenes">
-          <img src={hobbyImage1} alt="Hobby 1" />
-          <img src={hobbyImage2} alt="Hobby 2" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/pxl1.jpg`} alt="Foto ejemplo1 " />
+          <img src={`${process.env.PUBLIC_URL}/assets/images/pxl2.jpg`} alt="Foto ejemplo2" />
         </div>
       </div>
       {/* Botón debajo de las imágenes */}

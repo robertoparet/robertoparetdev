@@ -1,15 +1,13 @@
 import React from 'react';
 import './Inicio.css';
-import backgroundVideo from '../../assets/21758-321309738.mp4';
 
 function Inicio() {
   return (
     <div className="inicio">
-      {/* Video de fondo */}
-      <video className="video-bg" autoPlay loop muted>
-        <source src={backgroundVideo} type="video/mp4" />
+      {/* Video de fondo */}   
+      <video className="video-bg" autoPlay loop muted src={`${process.env.PUBLIC_URL}/assets/videos/video.mp4`} controls>
         Your browser does not support the video tag.
-      </video>
+      </video>    
       <div className="content">
         <h1>Roberto Alejandro Paret Pérez</h1>
         <h2>Software Developer</h2>
