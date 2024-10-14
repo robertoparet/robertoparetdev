@@ -1,6 +1,6 @@
 import React from 'react';
 import './Inicio.css';
-import backgroundVideo from '../media/21758-321309738.mp4';
+import backgroundVideo from '../../assets/21758-321309738.mp4';
 
 function Inicio() {
   return (

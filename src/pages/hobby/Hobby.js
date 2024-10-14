@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hobby.css';
-import hobbyImage1 from '../media/pxl1.jpg'; // Reemplaza con la ruta de tu primera imagen
-import hobbyImage2 from '../media/pxl2.jpg'; // Reemplaza con la ruta de tu segunda imagen
+import hobbyImage1 from '../../assets/pxl1.jpg'; // Reemplaza con la ruta de tu primera imagen
+import hobbyImage2 from '../../assets/pxl2.jpg'; // Reemplaza con la ruta de tu segunda imagen
 
 function Hobby() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './FormacionAcademica.css';
-import educationImage from '../media/cilindro.png'; // Reemplaza con la ruta de tu imagen
+import educationImage from '../../assets/cilindro.png'; // Reemplaza con la ruta de tu imagen
 
 function FormacionAcademica() {
   return (

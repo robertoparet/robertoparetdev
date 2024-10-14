@@ -1,6 +1,6 @@
 import React from 'react';
 import './SobreMi.css';
-import profileImage from '../media/asian-man-1468032_1920.jpg';  // Reemplaza con tu imagen
+import profileImage from '../../assets/asian-man-1468032_1920.jpg';  // Reemplaza con tu imagen
 
 function SobreMi() {
   return (

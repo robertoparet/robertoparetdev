@@ -1,10 +1,10 @@
 import './App.css';
-import Experiencia from './pages/experiencia';
-import FormacionAcademica from './pages/formacionAcademica';
-import Inicio from './pages/inicio';
-import Hobby from './pages/hobby';
-import SobreMi from './pages/sobreMi';
-import Contacto from './pages/contacto';
+import Experiencia from './pages/experiencia/Experiencia';
+import FormacionAcademica from './pages/formacion/FormacionAcademica';
+import Inicio from './pages/inicio/Inicio';
+import Hobby from './pages/hobby/Hobby';
+import SobreMi from './pages/sobremi/SobreMi';
+import Contacto from './pages/contacto/Contacto';
 
 function App() {
   return (

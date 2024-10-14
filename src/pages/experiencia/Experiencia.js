@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experiencia.css';
-import experienceImage from '../media/cilindro.png'; // Reemplaza con la ruta de tu imagen
+import experienceImage from '../../assets/cilindro.png'; // Reemplaza con la ruta de tu imagen
 
 function Experiencia() {
   return (
