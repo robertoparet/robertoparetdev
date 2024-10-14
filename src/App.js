@@ -8,14 +8,16 @@ import Contacto from './pages/contacto';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">    
       <Inicio/>
       <SobreMi/>
       <FormacionAcademica/>
       <Experiencia/>
       <Hobby/>
       <Contacto/>
+  
     </div>
+    
   );
 }
 
