@@ -6,6 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Compactar encabezados */
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 2rem; /* Ajusta el tamaño según prefieras */
+}
+
+/* Compactar párrafos */
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1rem; /* Reduce el tamaño de la fuente */
+  line-height: 1.4; /* Reduce el espacio entre líneas */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
