@@ -7,6 +7,7 @@ function Contacto() {
     email: '',
     message: '',
   });
+  const [statusMessage, setStatusMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,28 +19,29 @@ function Contacto() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000/api/contact';
+
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
       });
-  
+
       if (response.ok) {
-        alert('¡Gracias por tu mensaje!');
-        setFormData({ name: '', email: '', message: '' }); // Limpiar el formulario
+        setStatusMessage('¡Gracias por tu mensaje!');
+        setFormData({ name: '', email: '', message: '' });
       } else {
-        alert('Hubo un problema al enviar tu mensaje. Inténtalo de nuevo más tarde.');
+        const errorData = await response.json();
+        setStatusMessage(`Hubo un problema: ${errorData.message || 'Inténtalo de nuevo más tarde.'}`);
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('Hubo un problema al enviar tu mensaje. Inténtalo de nuevo más tarde.');
+      setStatusMessage('Hubo un problema al enviar tu mensaje. Inténtalo de nuevo más tarde.');
     }
   };
-  
 
   return (
     <div className="contacto">
@@ -79,6 +81,7 @@ function Contacto() {
         </div>
         <button type="submit">Enviar</button>
       </form>
+      {statusMessage && <p>{statusMessage}</p>}
     </div>
   );
 }
