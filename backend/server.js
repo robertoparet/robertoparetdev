@@ -1,8 +1,9 @@
+require('dotenv').config();
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const contactRoute = require('./api/contact');  // Ruta correcta al archivo de contacto
+const contactRoute = require('./api/contact');
 
 const app = express();
 const PORT = process.env.PORT || 5000;

@@ -1,5 +1,6 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
+require('dotenv').config(); // Asegúrate de cargar las variables de entorno
 
 const router = express.Router();
 
@@ -7,8 +8,8 @@ const router = express.Router();
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'robertoparetdev@gmail.com', // Tu correo electrónico
-    pass: 'bhde jfnl tyjm acls' // Aquí debes usar una contraseña de aplicación de Google
+    user: process.env.EMAIL_USER, // Leer desde el archivo .env
+    pass: process.env.EMAIL_PASS, // Leer desde el archivo .env
   },
 });
 
@@ -18,7 +19,7 @@ router.post('/', (req, res) => {
 
   const mailOptions = {
     from: `${name} <${email}>`, // El correo del usuario
-    to: 'robertoparetdev@gmail.com', // Tu correo
+    to: process.env.EMAIL_USER, // Tu correo (debe estar en .env)
     subject: `Nuevo mensaje de ${name}`,
     text: message,
     replyTo: email, // Responder a la dirección del usuario
